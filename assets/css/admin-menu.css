@@ -16,9 +16,12 @@ body {
     margin-top: 2px;
     margin-bottom: 2px;
 }
+.admin-menu .material-icons {
+    vertical-align: middle;
+}
 .admin-menu .navbar-nav > li > a {
-    padding-top: 3px;
-    padding-bottom: 3px;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 .admin-menu .dropdown-menu {
     padding: 0;
@@ -33,7 +36,6 @@ body {
     right: 0;
     padding: 3px;
     color: #000;
-    background-color: #ccc;
     opacity: 0;
 }
 .admin-menu .dropdown-menu li:hover>a:not(:first-of-type) {
