@@ -13,7 +13,8 @@ class AdminMenu extends Widget
 
     public function run()
     {
-        $this->registerClientScripts();
+        $view = $this->getView();
+        AdminMenuAsset::register($view);
 
         NavBar::begin([
             'options' => [
@@ -33,12 +34,5 @@ class AdminMenu extends Widget
             'items' => $this->itemsRight,
         ]);
         NavBar::end();
-    }
-
-    protected function registerClientScripts()
-    {
-        $view = $this->getView();
-        $asset = Yii::$container->get(AdminMenuAsset::className());
-        $asset::register($view);
     }
 }
