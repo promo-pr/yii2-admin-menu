@@ -18,7 +18,7 @@ class AdminMenu extends Widget
 
         NavBar::begin([
             'options' => [
-                'class' => 'admin-menu',
+                'class' => 'admin-menu navbar-inverse',
             ],
         ]);
         echo Nav::widget([
