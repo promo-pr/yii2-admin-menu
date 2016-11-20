@@ -11,6 +11,9 @@ body {
     left: 0;
     right: 0;
 }
+.admin-menu i, .admin-menu a {
+    font-size: 14px;
+}
 .admin-menu .navbar-toggle {
     padding: 3px 10px;
     margin-top: 2px;
