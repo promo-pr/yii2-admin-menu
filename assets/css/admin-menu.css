@@ -12,7 +12,7 @@ body {
     right: 0;
 }
 .admin-menu .navbar-brand {
-    padding: 4px 15px;
+    padding: 3px 15px;
     height: 28px;
 }
 .admin-menu i, .admin-menu a {
@@ -27,8 +27,8 @@ body {
     vertical-align: middle;
 }
 .admin-menu .navbar-nav > li > a {
-    padding-top: 4px;
-    padding-bottom: 4px;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 .admin-menu .dropdown-menu {
     padding: 0;
