@@ -17,6 +17,7 @@ class AdminMenu extends Widget
         AdminMenuAsset::register($view);
 
         NavBar::begin([
+            'brandLabel' => 'NavBar Test',
             'options' => [
                 'class' => 'admin-menu navbar-inverse',
             ],

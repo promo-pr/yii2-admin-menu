@@ -11,6 +11,10 @@ body {
     left: 0;
     right: 0;
 }
+.admin-menu .navbar-brand {
+    padding: 4px 15px;
+    height: 28px;
+}
 .admin-menu i, .admin-menu a {
     font-size: 14px;
 }
